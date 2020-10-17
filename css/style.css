@@ -1,0 +1,61 @@
+﻿body{
+	background-image: linear-gradient(to right, red, orange, yellow)
+ }
+body > div{
+	width:100%;
+    }
+@media (min-width:992px){
+div > section{
+	width:33.33%;
+	float:left;
+	  }
+      }
+@media (min-width:768px) and (max-width:991px){    
+.container{
+	width:50%;
+	float:left;
+          }
+.container1{
+	width:100%;
+	float:left
+           }
+      }
+section > div{
+	background-color:white;
+	margin:5px;
+	border:1px solid black;
+             }
+h2{
+	width:40%;
+	margin:0%;
+	text-align:center;
+	font-family:arial;
+	padding:5px;
+	float:right;
+	border:1px solid black;
+	
+  }
+p{
+	color:red;
+	padding:10px;
+	font-family:italics;
+	margin-top:25px;
+	clear:right;
+ }
+h1{
+	text-align:center;
+	color:blue;
+	padding:5px;
+  }
+.l1{
+	background-color:orange;
+	color:red;
+  }
+.l2{
+	background-color:yellow;
+	color:green;
+  }
+.l3{
+	background-color:skyblue;
+	color:blue;
+  }	         
